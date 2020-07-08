@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0040FF"
+        android:text="EngLish Vocabolary"
+        android:textColor="#FFFFFF"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        >
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:src="@drawable/eng"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnLearn"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:text="Learn"
+        android:textStyle="bold"></Button>
+    <Button
+        android:id="@+id/btnPratice"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Practice"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:textStyle="bold"></Button>
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:padding="3dp"
+        android:textStyle="bold">
+
+    </Button>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:contentDescription=""
+            android:src="@drawable/star" />
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:contentDescription=""
+            android:src="@drawable/word" />
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="56dp"
+            android:contentDescription=""
+            android:src="@drawable/set" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnbai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0000FF"
+        android:text="Bấm vào đây để chuyển qua bài 1"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#F5F6CE"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="15dp"
+        >
+    </Button>
+
+</LinearLayout>
